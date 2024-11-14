@@ -1,0 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.icon-size {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}

@@ -64,3 +64,44 @@ html {
 .product-card:hover img {
   transform: scale(1.1); 
 }
+
+/* Footer */
+.footer {
+  background-color: #C18111 !important;
+}
+
+.footer .display-6,
+.footer .nav-link,
+.footer .fa,
+.footer .text-center,
+.footer .fs-sm,
+.footer .nav-link.d-inline {
+  color: #F8DC69;
+}
+
+.footer .btn-primary {
+  background-color: #E1B83D;
+  border-color: #E1B83D;
+}
+
+.footer .btn-primary:hover {
+  background-color: #F8DC69;
+  border-color: #F8DC69;
+}
+
+.footer .nav-link:hover,
+.footer .fa:hover {
+  color: #F9C7D5;
+}
+
+/* Estilos para los íconos de redes sociales */
+.footer .fa {
+  font-size: 1.8rem; 
+  transition: transform 0.3s ease; 
+}
+
+.footer .fa:hover {
+  transform: scale(1.2); 
+  color: #F9C7D5; 
+}
+

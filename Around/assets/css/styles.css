@@ -16,6 +16,62 @@ html {
   border-radius: 50%;
 }
 
+.btn {
+  background-color: #ec959c !important;
+  color: #f9c7d5 !important;
+  border-color: none;
+}
+
+.btn:hover {
+  background-color: #f9c7d5 !important;
+  color: #ec959c !important;
+  border-color: none;
+
+  /* Navbar */
+  .navbar {
+    background-color: #f8dc69;
+    transition: background-color 0.3s ease;
+  }
+
+  .navbar.scrolled {
+    background-color: #c18111;
+  }
+
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: #c97a5b;
+    transition: color 0.3s ease;
+  }
+
+  .navbar .navbar-brand:hover,
+  .navbar .nav-link:hover {
+    color: #ec959c;
+  }
+
+  body.scrolled .navbar {
+    background-color: #c18111;
+  }
+}
+
+/* Estilos para la hero sección */
+.section-header {
+  color: #c18111;
+}
+
+.section-subtitle {
+  color: #e1b83d;
+}
+
+.section-bg {
+  background-color: #f8dc69;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.section-text {
+  color: #c97a5b;
+}
+
 /* Estilos para CEO section */
 .description-box {
   background-color: #f9f5f2;
@@ -52,7 +108,7 @@ html {
 
 /* efectos galería de productos */
 .product-card {
-  overflow: hidden; 
+  overflow: hidden;
   position: relative;
 }
 
@@ -60,14 +116,46 @@ html {
   transition: transform 0.3s ease-in-out;
 }
 
-
 .product-card:hover img {
-  transform: scale(1.1); 
+  transform: scale(1.1);
+}
+
+/* Sección de contacto */
+#contact-form {
+  color: #f8dc69;
+}
+
+#contact-form h2,
+#contact-form .form-label {
+  color: #4b160d;
+}
+
+/* Formulario */
+#contact-form .form-control {
+  background-color: #fff;
+  color: #121519;
+  border: 1px solid #ccc;
+}
+
+#contact-form .btn-light {
+  background-color: #ec959c;
+  color: #f9c7d5;
+  border: none;
+}
+
+#contact-form .btn-light:hover {
+  background-color: #f9c7d5;
+  color: #ec959c;
+}
+
+/* Formas decorativas */
+#contact-form svg path {
+  fill-opacity: 0.1;
 }
 
 /* Footer */
 .footer {
-  background-color: #C18111 !important;
+  background-color: #c18111 !important;
 }
 
 .footer .display-6,
@@ -76,32 +164,33 @@ html {
 .footer .text-center,
 .footer .fs-sm,
 .footer .nav-link.d-inline {
-  color: #F8DC69;
+  color: #f8dc69;
 }
 
-.footer .btn-primary {
-  background-color: #E1B83D;
-  border-color: #E1B83D;
+.footer .btn {
+  background-color: #ec959c;
+  color: #f9c7d5;
+  border-color: none;
 }
 
-.footer .btn-primary:hover {
-  background-color: #F8DC69;
-  border-color: #F8DC69;
+.footer .btn:hover {
+  background-color: #f9c7d5;
+  color: #ec959c;
+  border-color: none;
 }
 
 .footer .nav-link:hover,
 .footer .fa:hover {
-  color: #F9C7D5;
+  color: #f9c7d5;
 }
 
 /* Estilos para los íconos de redes sociales */
 .footer .fa {
-  font-size: 1.8rem; 
-  transition: transform 0.3s ease; 
+  font-size: 1.8rem;
+  transition: transform 0.3s ease;
 }
 
 .footer .fa:hover {
-  transform: scale(1.2); 
-  color: #F9C7D5; 
+  transform: scale(1.2);
+  color: #f9c7d5;
 }
-

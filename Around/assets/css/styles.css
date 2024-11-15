@@ -2,6 +2,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.logo-img {
+  width: 35px;
+  height: auto;
+  max-height: 32px;
+  padding-right: 5px;
+}
+
 .icon-size {
   width: 150px;
   height: 150px;
